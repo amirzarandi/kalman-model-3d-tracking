@@ -68,7 +68,7 @@ where $H_{k}$ is the observation model which maps the true state space into the 
 
 The initial state, and the noise vectors at each step $\{x_{0}, w_{1}, \ldots, w_{k}, v_{1} \ldots v_{k}\}$ are all assumed to be mutually independent.
 
-## 4. $3.2 \quad$ Filtering
+## 4.3.2 \quad$ Filtering
 
 The state of the Kalman filter is represented by two variables:
 
