@@ -34,8 +34,6 @@ $$
 
 ## 3. Kalman Equations and Dynamic Model
 
-### 3.1. Kalman Equations
-
 Reproduced from Wikipedia (below) we have the systems of equations (in matrix format) that need to be solved as part of the Kalman Filtering algorithm. Our challenge is to adapt the problem setting to result in the model that satisfies the form of these equations which will allow us to use Kalman Filtering to track the ball's position and velocity.
 
 The Kalman filter model assumes the true state at time $\mathrm{k}$ is evolved from the state at $(\mathrm{k}-1)$ according to:
@@ -68,7 +66,7 @@ where $H_{k}$ is the observation model which maps the true state space into the 
 
 The initial state, and the noise vectors at each step $\{x_{0}, w_{1}, \ldots, w_{k}, v_{1} \ldots v_{k}\}$ are all assumed to be mutually independent.
 
-## 4.3.2 Filtering
+## 4. Filtering
 
 The state of the Kalman filter is represented by two variables:
 
